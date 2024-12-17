@@ -1,0 +1,225 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right,rgb(201, 201, 201),#b5d0d8);
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    padding: 1.5rem;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px black;
+    transition: opacity 0.6s ease, transform 0.6s ease;
+    opacity: 1;
+    transform: scale(1);
+}
+
+form{
+    margin:0 2rem;
+}
+
+.form-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align:center;
+    padding:1.3 rem;
+    margin-bottom: 0.4rem;
+}
+
+/* Input Styles */
+input{
+    color:inherit;
+    width: 100%;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid #757575;
+    padding-left: 1.5rem;
+    font-size: 15px;
+}
+
+.input-groupe{
+    padding:1% 0;
+    position:relative;
+}
+
+.input-groupe i{
+    position:absolute;
+    color:black;
+}
+
+input:focus{
+    background-color: transparent;
+    outline:transparent;
+    border-bottom:2px solid hsl(327,90%,28%);
+}
+/* Recover Password */
+.recover{
+    text-align:right;
+    font-size:1rem;
+    margin-bottom:1rem;
+}
+
+.recover a{
+    text-decoration:none;
+    color:rgb(125,125,235);
+}
+.recover a:hover{
+    color:blue;
+    text-decoration:underline;
+}
+
+/* Button Styles */
+.btn{
+    font-size:1.1rem;
+    padding:8px 0;
+    border-radius:5px;
+    width:100%;
+    background:rgb(125,125,235);
+    color:white;
+    cursor:pointer;
+    transition: background 0.4s;
+}
+
+.btn:hover{
+    background:#07001f;
+}
+
+/* Icons and Links */
+.icons{
+    text-align:center;
+}
+.icons i{
+    color:rgb(125,125,235);
+    padding:0.8rem 1.5rem;
+    border-radius:10px;
+    font-size:1.5rem;
+    cursor:pointer;
+    border:2px solid #dfe9f5;
+    margin:0 15px;
+    transition: all 0.3s;
+}
+.icons i:hover{
+    background:#07001f;
+    font-size:1.6rem;
+    border:2px solid rgb(125,125,235);
+}
+
+.links{
+    display:flex;
+    justify-content:space-around;
+    padding:0 4rem;
+    margin-top:0.9rem;
+    font-weight:bold;
+}
+
+button{
+    color:rgb(125,125,235);
+    border:none;
+    background-color:transparent;
+    font-size:1rem;
+    font-weight:bold;
+}
+button:hover{
+    text-decoration:underline;
+    color:blue;
+}
+
+
+
+
+
+
+/* Success Message (User Info) */
+
+
+/* Fade-out animation */
+.fade-out {
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+/* Logout Button */
+.logout-btn {
+    font-size: 1.1rem;
+    padding: 8px 0;
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    transition:  0.4s;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.logout-btn:hover {
+    background-color: #f1f436;
+    color: #07001f;
+    text-decoration: none;
+}
+.success {
+    text-align: center;
+    padding: 2rem;
+    border: 1px solid #ffffff;
+    background-color: #dbebd8;
+    color:white;
+    
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    margin-top: 2rem;
+    color: #ffffff;
+}
+.errors {
+    text-align: center;
+    padding: 2rem;
+    border: 1px solid #ffffff;
+    background-color: #f3cbcb;
+    color:white;
+    
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    margin-top: 2rem;
+    color: #ffffff;
+}
+
+
+.logout-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.allusers {
+    background-color: #3dee45;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.allusers:hover {
+    background-color: #3652f4;
+    color: #ffffff;
+    text-decoration: none;
+}
+.allusers {
+    font-size: 1.1rem;
+    padding: 8px 0;
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    transition:  0.4s;
+    margin-top: 1rem;
+    text-decoration: none;
+}
